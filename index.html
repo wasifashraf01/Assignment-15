@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-15</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img width="300px" src="download.png" alt="">
+        <div class="head">
+            <button>Download PDF</button>
+            <button id="green">Registration</button>
+        </div>
+    </header>
+    <form>
+        <h1>Registration Form</h1>
+        <table>
+            <tr>
+                <td>
+                    <label for="sele">Intitute*</label>
+                    <br>
+                    <select name="select" id="sele">
+                        <option value="one" selected>Select Option</option>
+                        <option value="two">SAIMS (WOW)</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="course">Course*</label>
+                    <br>
+                    <select name="select" id="sele">
+                        <option value="one" selected>Select Option</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="time">Your Favourite Time?*</label>
+                    <br>
+                    <select name="select" id="sele">
+                        <option value="one" selected>Select Option</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>  
+                    <label for="fullname">FullName*</label>
+                    <br>
+                    <input type="text" id="fullname">
+                </td>
+                <td>
+                    <label for="parents">Parents / Guardian Name*</label>
+                    <br>
+                    <input type="text" id="parents">
+                </td>
+                <td>
+                    <label for="email">Email ( Write email carefully )*</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="abc123@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="contact">Contact*</label>
+                    <input type="text" placeholder="03XXXXXXXXX">
+                </td>
+                <td>
+                    <label for="city">City Name*</label>
+                    <input type="text">
+                </td>
+                <td>
+                    <label for="cnic">CNIC/B-Form*</label>
+                    <input type="text" placeholder="4XXXXXXXXXXXX">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="gender">Gender*</label>
+                <br>
+                <select name="gender" id="gender">
+                    <option value="gender">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                </td>
+                <td>
+                    <label for="date">Date of Birth</label>
+                    <br>
+                    <input type="date" name="date" id="date">
+                </td>
+                <td>
+                    <label for="qualification">Last Qualification</label>
+                    <br>
+                    <select name="qualification" id="qualification">
+                        <option value="one">Under Matric</option>
+                        <option value="two">Matric</option>
+                        <option value="three">Intermediate</option>
+                        <option value="four">Graduate</option>
+                        <option value="five">Master</option>
+                        <option value="six">PHD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Payment Address*</label>
+                    <br>
+                    <input type="text" style="width: 300px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Passport Size Profile Image (Face Front and Decent picture)</h3>
+                    <div class="border">
+                        <input type="file" name="file" id="file">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

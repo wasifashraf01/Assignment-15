@@ -1,0 +1,43 @@
+header{
+    border: 2px solid rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247);
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 1px 8px;
+    margin: 20px;
+}
+.head{
+    display: inline-block;
+    position: absolute;
+    left: 77%;
+    top: 30px;
+    padding: 5px;
+}
+
+.head button{
+    width: 117px;
+    border: none;
+    background-color: rgb(247, 247, 247);
+}
+.head button:hover{
+    color: green;
+}
+.head #green{
+    color: green;
+}
+h1{
+    color: green;
+    text-align: center;
+}
+form{
+    border: 2px solid green;
+    width: 900px;
+    margin: 0 auto;
+}
+.col1{
+    margin: 12px 5px;
+    font-size: 20px;
+}
+select, input{
+    border: none;
+    border-bottom: 1px solid green;
+    outline: none;
+}
